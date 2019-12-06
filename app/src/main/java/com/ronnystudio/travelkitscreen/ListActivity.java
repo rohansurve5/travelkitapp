@@ -1,9 +1,6 @@
-package com.example.travelkitscreen;
+package com.ronnystudio.travelkitscreen;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,20 +9,17 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.example.travelkitscreen.Travel.BookingActivity;
-import com.example.travelkitscreen.Travel.CitiesActivity;
-import com.example.travelkitscreen.Travel.CityTwoActivity;
-import com.example.travelkitscreen.Travel.FlightsActivity;
-import com.example.travelkitscreen.Travel.Flights_search;
-import com.example.travelkitscreen.Travel.HotelActivity;
-import com.example.travelkitscreen.Travel.ListOfHotelsActivity;
-import com.example.travelkitscreen.Travel.NearBYActivity;
-import com.example.travelkitscreen.Travel.PlaceActivity;
+import com.ronnystudio.travelkitscreen.Travel.BookingActivity;
+import com.ronnystudio.travelkitscreen.Travel.CitiesActivity;
+import com.ronnystudio.travelkitscreen.Travel.CityTwoActivity;
+import com.ronnystudio.travelkitscreen.Travel.FlightsActivity;
+import com.ronnystudio.travelkitscreen.Travel.Flights_search;
+import com.ronnystudio.travelkitscreen.Travel.HotelActivity;
+import com.ronnystudio.travelkitscreen.Travel.ListOfHotelsActivity;
+import com.ronnystudio.travelkitscreen.Travel.NearBYActivity;
+import com.ronnystudio.travelkitscreen.Travel.PlaceActivity;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-import com.google.android.material.snackbar.Snackbar;
-
-import java.util.List;
 
 public class ListActivity extends AppCompatActivity {
 

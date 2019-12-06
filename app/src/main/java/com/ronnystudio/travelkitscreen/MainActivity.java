@@ -1,4 +1,4 @@
-package com.example.travelkitscreen;
+package com.ronnystudio.travelkitscreen;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -1,13 +1,13 @@
-package com.example.travelkitscreen.Travel;
+package com.ronnystudio.travelkitscreen.Travel;
 
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.example.travelkitscreen.R;
-import com.example.travelkitscreen.Travel.fragment.FragmentOne;
-import com.example.travelkitscreen.utils.CustomTool;
+import com.ronnystudio.travelkitscreen.R;
+import com.ronnystudio.travelkitscreen.Travel.fragment.FragmentOne;
+import com.ronnystudio.travelkitscreen.utils.CustomTool;
 import com.google.android.material.tabs.TabLayout;
 
 

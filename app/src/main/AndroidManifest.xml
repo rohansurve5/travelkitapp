@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.travelkitscreen">
+    package="com.ronnystudio.travelkitscreen">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,17 +12,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListActivity"></activity>
-        <activity android:name=".Travel.CitiesActivity"/>
-        <activity android:name=".Travel.BookingActivity"/>
-        <activity android:name=".Travel.CityTwoActivity"/>
-        <activity android:name=".Travel.Flights_search"/>
-        <activity android:name=".Travel.FlightsActivity"/>
-        <activity android:name=".Travel.HotelActivity"/>
-        <activity android:name=".Travel.ListOfHotelsActivity"/>
-        <activity android:name=".Travel.NearBYActivity"/>
-        <activity android:name=".Travel.PlaceActivity"/>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.ronnystudio.travelkitscreen.ListActivity"></activity>
+        <activity android:name="com.ronnystudio.travelkitscreen.Travel.CitiesActivity"/>
+        <activity android:name="com.ronnystudio.travelkitscreen.Travel.BookingActivity"/>
+        <activity android:name="com.ronnystudio.travelkitscreen.Travel.CityTwoActivity"/>
+        <activity android:name="com.ronnystudio.travelkitscreen.Travel.Flights_search"/>
+        <activity android:name="com.ronnystudio.travelkitscreen.Travel.FlightsActivity"/>
+        <activity android:name="com.ronnystudio.travelkitscreen.Travel.HotelActivity"/>
+        <activity android:name="com.ronnystudio.travelkitscreen.Travel.ListOfHotelsActivity"/>
+        <activity android:name="com.ronnystudio.travelkitscreen.Travel.NearBYActivity"/>
+        <activity android:name="com.ronnystudio.travelkitscreen.Travel.PlaceActivity"/>
+        <activity android:name="com.ronnystudio.travelkitscreen.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

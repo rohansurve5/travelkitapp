@@ -1,4 +1,4 @@
-package com.example.travelkitscreen.utils;
+package com.ronnystudio.travelkitscreen.utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

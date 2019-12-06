@@ -1,4 +1,4 @@
-package com.example.travelkitscreen.Travel.fragment;
+package com.ronnystudio.travelkitscreen.Travel.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-import com.example.travelkitscreen.R;
+import com.ronnystudio.travelkitscreen.R;
 
 import androidx.fragment.app.Fragment;
 

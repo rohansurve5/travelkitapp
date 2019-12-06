@@ -1,4 +1,4 @@
-package com.example.travelkitscreen.utils;
+package com.ronnystudio.travelkitscreen.utils;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.example.travelkitscreen.R;
+import com.ronnystudio.travelkitscreen.R;
 
 import androidx.annotation.DrawableRes;
 

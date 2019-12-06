@@ -1,11 +1,11 @@
-package com.example.travelkitscreen.utils;
+package com.ronnystudio.travelkitscreen.utils;
 
 import android.app.Activity;
 import android.os.Build;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.example.travelkitscreen.R;
+import com.ronnystudio.travelkitscreen.R;
 
 import androidx.annotation.ColorRes;
 

@@ -1,4 +1,4 @@
-package com.example.travelkitscreen;
+package com.ronnystudio.travelkitscreen;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.travelkitscreen", appContext.getPackageName());
+        assertEquals("com.ronnystudio.travelkitscreen", appContext.getPackageName());
     }
 }
