@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">travelkitscreen</string>
+    <string name="from">From</string>
+    <string name="ny">NY</string>
+    <string name="new_york">New York</string>
+    <string name="to">To</string>
+    <string name="hnd">HND</string>
+    <string name="tokyo_haneda">Tokyo Haneda</string>
+    <string name="depart">Depart</string>
+    <string name="type">Type</string>
+    <string name="adults">Adults</string>
+    <string name="_01">01</string>
+    <string name="premium_economy">Premium Economy</string>
+    <string name="business_clas">Business Clas</string>
+    <string name="economy">Economy</string>
+    <string name="first_class">First Class</string>
+    <string name="children">Children</string>
+    <string name="one_way">One way</string>
+    <string name="the_city_of_new_york_usually_called_either_new_york_city_nyc_or_simply_new_york_ny">The City of New York, usually called either New York City (NYC) or simply New York (NY).</string>
+    <string name="london">London</string>
+    <string name="london_is_the_capital_of_and_largest_city_in_england_and_the_united_kingdom_with_the_largest">London is the capital of and largest city in England and the United Kingdom, with the largest</string>
+    <string name="recommended">Recommended</string>
+    <string name="more">MORE</string>
+    <string name="central_park">central park</string>
+    <string name="hosted_by_alex">Hosted by Alex</string>
+    <string name="_1_bath">1 bath</string>
+    <string name="petronas_towers">Petronas Towers</string>
+    <string name="bukit_bintang">Bukit Bintang</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6139690895162942/9820492383</string>
+</resources>

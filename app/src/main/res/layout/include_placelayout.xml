@@ -1,0 +1,94 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:scrollbars="none"
+    android:scrollingCache="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <customfonts.TextView_Lato_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30.7sp"
+            android:textColor="#131314"
+            android:padding="15dp"
+            android:lineSpacingExtra="8.3sp"
+            android:text="Marina Bay Sands"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical">
+
+            <customfonts.TextView_Lato_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13.4sp"
+                android:textColor="#8f8f8f"
+
+                android:lineSpacingExtra="2.6sp"
+                android:text="Singapore"
+                />
+
+            <RatingBar
+
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:numStars="5"
+                android:rating="4"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/place_image"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="15.4dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <customfonts.MyTextView_LoraRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19.2sp"
+                android:textColor="#131314"
+                android:lineSpacingExtra="4.8sp"
+                android:text="About"
+                />
+
+            <customfonts.TextView_Lato_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15.4sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="#131314"
+                android:lineSpacingExtra="2.6sp"
+                android:text="Singapore (/ˈsiːŋ(ɡ)əpɔːr/ (About this soundlisten)), officially the Republic of Singapore (Malay: Republik Singapura; Chinese: 新加坡共和国; Tamil: சிங்கப்பூர் குடியரசு), is an island city-state in Southeast Asia. It lies one degree (137 kilometres or 85 miles) north of the equator, at the southern tip of the Malay Peninsula, with Indonesia&apos;s Riau Islands to the south and Peninsular Malaysia to the north."
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

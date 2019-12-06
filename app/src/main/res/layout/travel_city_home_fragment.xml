@@ -1,0 +1,378 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:scrollbars="none"
+    android:scrollingCache="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/spacing_medium"
+                    android:visibility="visible">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="399dp"
+                        android:layout_margin="@dimen/spacing_medium"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="2dp"
+                        app:cardElevation="2dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+
+                                android:layout_width="240dp"
+                                android:layout_height="230dp"
+                                android:background="@drawable/photo_one"
+                                android:scaleType="centerCrop" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:padding="@dimen/spacing_large">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <customfonts.MyTextView_LatoBold
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:maxLines="1"
+                                        android:textSize="19.2sp"
+                                        android:singleLine="true"
+                                        android:layout_marginTop="10dp"
+                                        android:text="@string/new_york"
+                                        android:textColor="@color/textcolor" />
+
+                                    <customfonts.TextView_Lato_Regular
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="13.4sp"
+                                        android:textColor="#8f8f8f"
+                                        android:layout_marginTop="10dp"
+                                        android:lineSpacingExtra="2.6sp"
+                                        android:text="@string/the_city_of_new_york_usually_called_either_new_york_city_nyc_or_simply_new_york_ny"
+                                        />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:tint="#aeaeb8"
+                                        android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/spacing_medium"
+                    android:visibility="visible">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="399dp"
+                        android:layout_margin="@dimen/spacing_medium"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="2dp"
+                        app:cardElevation="2dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+
+                                android:layout_width="240dp"
+                                android:layout_height="230dp"
+                                android:background="@drawable/photo_two"
+                                android:scaleType="centerCrop" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:padding="@dimen/spacing_large">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <customfonts.MyTextView_LatoBold
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:maxLines="1"
+                                        android:textSize="19.2sp"
+                                        android:singleLine="true"
+                                        android:layout_marginTop="10dp"
+                                        android:text="@string/new_york"
+                                        android:textColor="@color/textcolor" />
+
+                                    <customfonts.TextView_Lato_Regular
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="13.4sp"
+                                        android:textColor="#8f8f8f"
+                                        android:layout_marginTop="10dp"
+                                        android:lineSpacingExtra="2.6sp"
+                                        android:text="@string/the_city_of_new_york_usually_called_either_new_york_city_nyc_or_simply_new_york_ny"
+                                        />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:tint="#aeaeb8"
+                                        android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/spacing_medium"
+                    android:visibility="visible">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="399dp"
+                        android:layout_margin="@dimen/spacing_medium"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="2dp"
+                        app:cardElevation="2dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+
+                                android:layout_width="240dp"
+                                android:layout_height="230dp"
+                                android:background="@drawable/photo_three"
+                                android:scaleType="centerCrop" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:padding="@dimen/spacing_large">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <customfonts.MyTextView_LatoBold
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:maxLines="1"
+                                        android:textSize="19.2sp"
+                                        android:singleLine="true"
+                                        android:layout_marginTop="10dp"
+                                        android:text="@string/london"
+                                        android:textColor="@color/textcolor" />
+
+                                    <customfonts.TextView_Lato_Regular
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="13.4sp"
+                                        android:textColor="#8f8f8f"
+                                        android:layout_marginTop="10dp"
+                                        android:lineSpacingExtra="2.6sp"
+                                        android:text="@string/london_is_the_capital_of_and_largest_city_in_england_and_the_united_kingdom_with_the_largest"
+                                        />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:tint="#aeaeb8"
+                                        android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/spacing_large"
+            android:paddingRight="@dimen/spacing_large">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/recommended"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minWidth="0dp"
+                android:text="@string/more"
+                android:textColor="@color/grey_medium" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_medium"
+            android:layout_marginBottom="70dp"
+            android:visibility="visible">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_medium"
+                android:layout_weight="1"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:background="@drawable/photo_five"
+                        android:scaleType="centerCrop" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/spacing_large">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <customfonts.MyTextView_LatoBold
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="@string/central_park"
+                                android:textSize="19.2sp"
+                                android:textColor="@color/textcolor" />
+
+                            <customfonts.TextView_Lato_Regular
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="13.4sp"
+                                android:textColor="#8f8f8f"
+                                android:layout_marginTop="10dp"
+                                android:lineSpacingExtra="2.6sp"
+                                android:text="@string/the_city_of_new_york_usually_called_either_new_york_city_nyc_or_simply_new_york_ny"
+                                />
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

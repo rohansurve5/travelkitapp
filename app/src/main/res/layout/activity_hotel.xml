@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Travel.HotelActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="288dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="298.2dp"
+            android:background="@drawable/hotel_imageone"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="43dp"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_marginStart="24dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="89.2dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="14.4dp"
+
+                android:src="@drawable/rate_icon"
+                android:layout_marginEnd="14.4dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="14.4dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/fav_icon"
+                android:layout_marginEnd="14.4dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="14.4dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/icon_share"
+                android:layout_marginEnd="14.4dp" />
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="312.1dp"
+        android:orientation="vertical">
+
+
+
+        <customfonts.TextView_Lato_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.4dp"
+            android:letterSpacing="0.03"
+            android:lineSpacingExtra="6.1sp"
+            android:textColor="#131314"
+            android:textSize="26.9sp"
+            android:text="Manhattan Luxury Loft. Like.Love.Lots.Look"
+            android:layout_marginStart="15.4dp" />
+
+        <RatingBar
+
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.4dp"
+            android:layout_marginTop="10dp"
+            android:numStars="5"
+            android:rating="4"
+            android:layout_marginStart="15.4dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="421dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+
+            <customfonts.TextView_Lato_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="3sp"
+                android:text="@string/hosted_by_alex"
+                android:textColor="#404b69"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:gravity="center|end"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/user_hotel" />
+
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="492.7dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17.8dp"
+                android:src="@drawable/icon_person"
+                android:layout_marginStart="17.8dp" />
+
+            <customfonts.TextView_Lato_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13.4sp"
+                android:textColor="#131314"
+                android:layout_marginLeft="22dp"
+                android:letterSpacing="0.03"
+                android:lineSpacingExtra="2.6sp"
+                android:text="4 guests"
+                android:layout_marginStart="22dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17.8dp"
+                android:src="@drawable/icon_drop"
+                android:layout_marginStart="17.8dp" />
+
+            <customfonts.TextView_Lato_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13.4sp"
+                android:textColor="#131314"
+                android:layout_marginLeft="22dp"
+                android:letterSpacing="0.03"
+                android:lineSpacingExtra="2.6sp"
+                android:text="@string/_1_bath"
+                android:layout_marginStart="22dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="534.7dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17.8dp"
+                android:src="@drawable/icon_breakfast"
+                android:layout_marginStart="17.8dp" />
+
+            <customfonts.TextView_Lato_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13.4sp"
+                android:textColor="#131314"
+                android:layout_marginLeft="20dp"
+                android:letterSpacing="0.03"
+                android:lineSpacingExtra="2.6sp"
+                android:text="Breakfast"
+                android:layout_marginStart="20dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <customfonts.TextView_Lato_SemiBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="2.6sp"
+            android:textColor="#000000"
+            android:textSize="15.4sp"
+            android:text="From $110.95 / night"
+            android:layout_marginStart="16dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:gravity="end">
+
+            <customfonts.MyTextView_LatoBold
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rect_blue_dark"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.02"
+                android:lineSpacingExtra="2.6sp"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textSize="15.4sp"
+                android:text="Book now " />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_above="@+id/lay_bottom"
+        android:layout_gravity="center"
+        android:layout_marginEnd="4.8dp"
+        android:layout_marginRight="4.8dp"
+        android:background="@drawable/bg_gradient_very_soft" />
+
+</RelativeLayout>
